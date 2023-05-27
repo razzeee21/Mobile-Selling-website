@@ -1,0 +1,124 @@
+/* Reset default browser styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+nav {
+    background: rgb(0, 211, 255);
+    background: linear-gradient(90deg, rgba(0, 211, 255, 1) 0%, rgba(249, 255, 0, 1) 100%);
+    color: #000000;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.brand p {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/* About section styles */
+.about-section {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 40px 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-container h2 {
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-text {
+    width: 60%;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background: rgb(0, 211, 255);
+    background: linear-gradient(90deg, rgba(0, 211, 255, 1) 0%, rgba(249, 255, 0, 1) 100%);
+    color: #000000;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.7;
+}

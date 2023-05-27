@@ -1,0 +1,138 @@
+/* Reset default browser styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+nav {
+    background: rgb(0, 211, 255);
+    background: linear-gradient(90deg, rgba(0, 211, 255, 1) 0%, rgba(249, 255, 0, 1) 100%);
+    color: #000000;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.brand p {
+    margin: 0;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/* Contact section styles */
+.contact-section {
+    
+    background: rgb(228,255,0);
+background: linear-gradient(90deg, rgba(228,255,0,1) 25%, rgba(255,0,249,1) 51%, rgba(50,255,242,1) 76%);
+    padding: 40px 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background: rgb(0, 211, 255);
+    background: linear-gradient(90deg, rgba(0, 211, 255, 1) 0%, rgba(249, 255, 0, 1) 100%);
+    color: #000000;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.7;
+}
